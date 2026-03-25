@@ -1,0 +1,13 @@
+<div class="col">
+    <img [src]="heroe.img" class="card-img-top w-50 mx-auto d-block mt-3" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">{{heroe.nombre}}</h5> 
+    <p class="card-text">{{heroe.bio}}</p>
+    <button type="button" class="btn btn-primary" (click)="muestraHeroe()">
+        Mas información...
+    </button>
+    </div>
+    <div class="card-footer">
+    <small class="text-body-secondary">{{heroe.aparicion}}</small>
+    </div>
+</div>
